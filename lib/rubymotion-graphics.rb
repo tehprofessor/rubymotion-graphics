@@ -2,7 +2,7 @@ unless defined?(Motion::Project::Config)
   raise "This file must be required within a RubyMotion project Rakefile"
 end
 
-require rubymotion-graphics
+require "rubymotion-graphics"
 
 Motion::Project::App.setup do |app|
   
